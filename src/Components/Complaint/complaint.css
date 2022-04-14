@@ -1,0 +1,106 @@
+@media screen and (max-width:768px) {
+    .complaint-image h2{
+        font-size: 30px !important;
+        font-weight: 700;
+    }
+}
+.complaint-background .complaint-image{
+    background-image: url("/public/Images/15.jpg");
+    padding: 8% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.complaint-image h2{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.complaint-content-part .complaint-we-make{
+    margin-top: 5%;
+    line-height: 30px;
+}
+.complaint-form h3{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+}
+.complaint-text-left{
+    margin: 5% 0;
+}
+.complaint-form-background{
+    padding: 5%;
+    background-color: #f7f7f7;
+}
+.complaint-text-left .complaint-form-background input{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.complaint-text-left .complaint-form-background button{
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    outline: 0;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-shadow: none;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px 6px 15px;
+    border: 2px solid #18191B;
+    background-color: #18191B;
+    color: #fff !important;
+    margin-top: 25px;
+}
+.complaint-content-part p{
+    letter-spacing: 0.6px;
+    line-height: 30px;
+}
+.complaint-content-part li{
+    letter-spacing: 0.6px;
+    line-height: 30px;
+}
+.complaint-content-part h5{
+    margin-top: 20px;
+}
+.complaint-content-part a{
+    text-decoration: none;
+}
+.complaint-content-part{
+    margin-bottom: 5%;
+}
+.money-transfer-complaint{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+}
+.money-perfect{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+}
+.money-perfect h3{
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 5%;
+}
+.money-get-it-now{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px !important;
+}
+.get-in-now-background{
+    padding: 5% 0;
+    margin-top: 5%;
+    background-color: #e8e8e8;
+}

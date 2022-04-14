@@ -1,0 +1,26 @@
+.image-getApp{
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.image-getApp img{
+    width: 50%;
+}
+.model-scan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.model-scan img{
+    width: 40%;
+}
+.screen-model-title{
+    text-align: center;
+}
+.modal.show {
+    display: block;
+    background-color: #000;
+    
+}

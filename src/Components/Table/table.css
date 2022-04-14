@@ -1,0 +1,42 @@
+.table-background{
+    padding: 5% 2%;
+    background-color: #f7f7f7;
+}
+
+.main-table-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-display{
+    flex-basis: 60%;
+}
+.main-table-area .table1{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    /* border: none; */
+    text-align: center;
+}
+
+.table1 thead th{
+   padding: 10px 20px;
+}
+.table1 tbody td{
+    padding: 10px 20px;
+}
+ .main-table-area .thead-background{
+     background-color: #cecece;
+ }
+ .main-table-area .middle-background{
+     background-color: #ebebeb;
+ }
+ .table-display .table-header{
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+ }

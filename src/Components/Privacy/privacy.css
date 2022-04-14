@@ -1,0 +1,77 @@
+.privacy-background{
+    padding: 5% 10%;
+}
+.privacy-main .privacy-header, .refund-header{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+    text-align: center;
+}
+.privacy-indroduction li{
+    margin-bottom: 25px;
+}
+.privacy-indroduction p{
+    letter-spacing: 0.6px;
+    line-height: 30px;
+    text-align: justify;
+}
+.list-Items-privacy li{
+    letter-spacing: 0.6px;
+    line-height: 30px;
+}
+.privacy-main p{
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+.privacy-main p{
+    letter-spacing: 0.6px;
+    text-align: justify;
+    line-height: 30px;
+}
+.privacy-main .cookies-list{
+    line-height: 30px;
+    letter-spacing: 0.6px;
+}
+
+
+.refund-policy-main{
+    padding: 5% 9%;
+}
+.refund-policy-main .refund-list{
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.refund-policy-main p{
+    letter-spacing: 0.6px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* Terms & Condition */
+
+.terms-condition-main .terms-header{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+    text-align: center;
+}
+.terms-background{
+    padding: 3% 9%;
+}
+.terms-condition-main .terms-list-items li{
+    padding: 20px 0;
+}
+.terms-list-items p{
+    letter-spacing: 0.6px;
+    text-align: justify;
+    line-height: 30px;
+}
+.terms-list-items .terms-four-para{
+    font-weight: 500;
+    text-transform: uppercase;
+}

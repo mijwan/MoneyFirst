@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url("/public/Images/15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.main-background-header{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+.main-background-content{
+   font-size: 60px;
+   font-weight: 900;
+   line-height: 80px;
+   color: #fff;
+}

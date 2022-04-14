@@ -1,0 +1,66 @@
+.contactUs-background{
+    padding: 6% 0;
+}
+.contactUs-main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactUs-part, .contactUs-part1{
+    flex-basis: 27%;
+}
+.contactUs-part1 input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.contactUs-part1 textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactUs-main h3{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 700;
+}
+.contactUs-main p{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 500;
+}
+.contactUs-part1 button{
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+}
+.contactUs-part .fas{
+    font-size: 18px;   
+}
+.contactUs-part a{
+    text-decoration: none;
+    color: #0092de;
+    font-family: cursive;
+}
+@media screen and (max-width:992px) {
+    .contactUs-main{
+        flex-direction: column;
+    }
+    .contactUs-background{
+        width: 90%;
+        padding-left: 10%;
+    }
+    .contactUs-part1 input{
+        border: 2px solid #0092de;
+    }
+    .contactUs-part1 textarea{
+        width: 100%;
+        border: 2px solid #0092de;
+    }
+}

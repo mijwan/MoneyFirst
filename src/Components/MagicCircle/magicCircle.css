@@ -1,0 +1,111 @@
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.magicCircle-main .magic-part img{
+    margin-right: 20px;
+}
+.magicCircle-background{
+    background-color: #f7f7f7;
+    padding: 7% 0;
+}
+.counter-part{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.magic-part h3{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+}
+.magic-part p{
+    margin-bottom: 35px;
+    letter-spacing: 0.6px;
+    line-height: 30px;
+}
+.progress-circle-container{
+    margin-left: 6%;
+}
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ebebeb; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+  
+    .progress-circle.progress-98:after {
+        background-image: linear-gradient(82.8deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+      
+    .progress-circle.progress-99:after {
+        background-image: linear-gradient(86.4deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+      
+      .progress-circle.progress-100:after {
+        background-image: linear-gradient(90deg, #66b8ff 50%, transparent 50%, transparent), linear-gradient(270deg, #66b8ff 50%, #ebebeb 50%, #ebebeb); }
+      
+
+
+    @-webkit-keyframes colorload {
+            0% {
+              opacity: 0;
+              transform: rotate(0deg); }
+            100% {
+              opacity: 1;
+              transform: rotate(360deg); } }
+
+   .progress-bar-background{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .progress-bar-background .progress-bar-content{
+       text-align: center;
+   }
+   @media screen and (max-width:600px) {
+       .progress-bar-background{
+           flex-direction: column;
+       }
+       .progress-circle-container{
+        margin-left: 0;
+    }
+   }

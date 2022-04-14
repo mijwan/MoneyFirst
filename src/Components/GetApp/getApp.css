@@ -1,0 +1,67 @@
+@media screen and (max-width: 850px) {
+    .downloadButtons {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .downloadButtons h1 {
+      font-size: 35px;
+      font-weight: 700;
+    }
+    .downloadContainer {
+      padding: 5rem 0;
+    }
+    .downloadButtons h1 {
+      font-size: 25px !important;
+    }
+    .downloadButtons h3{
+      font-size: 18px !important;
+    }
+  }
+  .downloadContainer{
+    padding: 8% 0;
+  }
+
+  .image-getApp{
+      display: flex;
+      justify-content:space-evenly ;
+      align-items: center;
+  }
+  .image-getApp img{
+      width: 50%;
+  }
+  .review-getApp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+ .getImage-area{
+     flex-basis: 40%;
+ }
+ .review-getApp .starr{
+     flex-basis: 40%;
+ }
+ .starr .fa-star{
+     color: orange;
+ } 
+ .downloadButtons h2{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+ }
+ .downloadButtons p{
+     margin-bottom: 35px;
+ }
+ .image-getApp img{
+     margin: 20px 0;
+ }
+ .review-getApp .starr{
+     margin-bottom: 20px ;
+ }
+ .rightImage img{
+   width: 100%;
+ }

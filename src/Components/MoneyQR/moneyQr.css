@@ -1,0 +1,23 @@
+.money-QR-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.money-QR-part h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+}
+.money-QR-part p{
+    text-align: center;
+    letter-spacing: 0.8px;
+}
+.money-QR-part img{
+    padding-left: 35%;
+}
+.moeny-background{
+    padding: 6% 0;
+    background-color: #f7f7f7;
+}

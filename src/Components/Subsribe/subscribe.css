@@ -1,0 +1,41 @@
+.main-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe-part h2{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    font-weight: 800;
+    text-align: center;
+}
+.subscribe-part p{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 600;
+}
+.subscribe-part1 input{
+    padding: 5px;
+    width: 67%;
+}
+.subscribe-part1 button{
+    padding: 7px;
+    background-color: #000000;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: .8px;
+}
+.subscribe-area{
+    padding: 5% 0;
+    background-image: url("/public/Images/18.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
